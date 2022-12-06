@@ -9,6 +9,8 @@ import UIKit
 
 class TaskListViewController: UITableViewController {
     
+    private let viewContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    
     private let cellID = "cell"
     private var tasks: [Task] = []
     

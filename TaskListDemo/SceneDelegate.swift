@@ -23,5 +23,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         StorageManager.shared.saveContext()
     }
     
-    
 }
