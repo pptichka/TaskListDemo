@@ -21,7 +21,7 @@ class TaskListViewController: UITableViewController {
     }
     
     private func setupView() {
-        tableView.register(UITableView.self, forCellReuseIdentifier: cellID)
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellID)
         view.backgroundColor = .white
         setupNavigationBar()
     }
